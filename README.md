@@ -183,11 +183,11 @@ mvn spring-boot:run
 
 ## 👨‍💻 Author
 
-**Veldurthi Venkata Manikumar**
+**Sharan Seerla Sagar**
 
 * GitHub: https://github.com/Manikumarveldurthi
 * LinkedIn: https://www.linkedin.com/in/veldurthi/
-* Email: [manikumar0459@gmail.com](mailto:manikumar0459@gmail.com)
+* Email: [seerlasagar@gmail.com](mailto:seerlasagar@gmail.com)
 
 ---
 

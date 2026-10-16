@@ -1,0 +1,83 @@
+body{
+background:linear-gradient(135deg,#eef6ff,#ffffff);
+}
+
+.service-box{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,0.1);
+transition:0.4s;
+}
+
+.service-box:hover{
+transform:translateY(-10px);
+box-shadow:0 15px 40px rgba(0,0,0,0.2);
+}
+
+.service-option{
+display:flex;
+align-items:center;
+margin-bottom:10px;
+}
+
+.service-option input{
+margin-right:10px;
+}
+
+.total{
+font-weight:bold;
+margin-top:10px;
+color:#28a745;
+}
+
+.service-box button{
+width:100%;
+margin-top:15px;
+padding:10px;
+border:none;
+border-radius:25px;
+background:linear-gradient(90deg,#007bff,#00c6ff);
+color:white;
+font-weight:600;
+transition:0.3s;
+}
+
+.service-box button:hover{
+transform:scale(1.05);
+box-shadow:0 5px 15px rgba(0,123,255,0.4);
+}
+
+.quantity-box{
+display:flex;
+justify-content:center;
+align-items:center;
+margin-top:10px;
+}
+
+.quantity-box button{
+width:30px;
+height:30px;
+border:none;
+background:#007bff;
+color:white;
+font-size:18px;
+border-radius:5px;
+margin:0 8px;
+}
+
+.quantity-box span{
+font-weight:bold;
+font-size:18px;
+}
+
+.total{
+font-weight:bold;
+margin-top:10px;
+color:#28a745;
+}
+
+.navbar button{
+border-radius:20px;
+font-weight:600;
+}

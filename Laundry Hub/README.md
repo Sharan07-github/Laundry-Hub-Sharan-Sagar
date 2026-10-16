@@ -1,0 +1,2 @@
+# Laundry Hub
+LaundryHub is a full-stack laundry service web application designed to simplify laundry booking and order management. The platform enables customers to schedule laundry services, manage carts, track orders, and access service information through an intuitive and responsive interface.  The application integrates Spring Boot backend services with MySQL database workflows and responsive frontend components to provide a seamless experience for both customers and administrators.

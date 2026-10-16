@@ -1,0 +1,335 @@
+/* Global Styles */
+
+body{
+font-family: 'Segoe UI', sans-serif;
+background:#f8f9fa;
+margin:0;
+padding:0;
+scroll-behavior:smooth;
+}
+
+
+
+/* Navbar */
+
+.custom-navbar{
+background: linear-gradient(90deg,#007bff,#00c6ff);
+padding:12px 0;
+box-shadow:0 4px 15px rgba(0,0,0,0.15);
+}
+
+.logo{
+font-size:26px;
+font-weight:700;
+letter-spacing:1px;
+}
+
+.nav-link{
+color:#141313 !important;
+font-size:16px;
+font-weight:bold;
+margin-left:15px;
+transition:0.3s;
+}
+
+.nav-link:hover{
+color:#ff3c00 !important;
+transform:translateY(-2px);
+}
+
+
+
+/* Hero Section */
+
+.hero-section{
+padding:100px 0;
+background:linear-gradient(120deg,#eef6ff,#ffffff);
+}
+
+.hero-text h1{
+font-size:50px;
+font-weight:700;
+color:#222;
+}
+
+.hero-text p{
+font-size:18px;
+margin-top:15px;
+color:#555;
+}
+
+.hero-img{
+width:320px;
+border-radius: 20%;
+animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+0%{transform:translateY(0)}
+50%{transform:translateY(-12px)}
+100%{transform:translateY(0)}
+}
+
+
+
+/* Buttons */
+
+.btn-light{
+background:linear-gradient(90deg,#11ff00,#00c6ff);
+border:none;
+padding:12px 28px;
+font-weight:600;
+border-radius:30px;
+transition:0.3s;
+}
+
+.btn-light:hover{
+transform:scale(1.05);
+box-shadow:0 8px 20px rgba(0,123,255,0.4);
+
+}
+
+
+
+/* Services Section */
+
+.services-section{
+padding:40px 0 80px;
+}
+
+.services-section h2{
+font-weight:700;
+margin-bottom:40px;
+}
+
+.service-card{
+background:white;
+padding:40px;
+border-radius:18px;
+text-align:center;
+transition:0.4s;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.service-card i{
+font-size:42px;
+color:#007bff;
+margin-bottom:15px;
+}
+
+.service-card h4{
+margin-top:10px;
+font-weight:600;
+}
+
+.service-card p{
+color:#666;
+}
+
+.service-card:hover{
+transform:translateY(-12px);
+box-shadow:0 15px 35px rgba(0,0,0,0.15);
+}
+
+
+
+/* Features Section */
+
+.features{
+background:linear-gradient(90deg,#007bff,#00c6ff);
+color:white;
+padding:70px 0;
+}
+
+.features h5{
+margin-top:10px;
+font-weight:600;
+}
+
+.feature-icon{
+font-size:42px;
+margin-bottom:10px;
+}
+
+
+
+/* Footer */
+
+.footer{
+background:#111;
+color:white;
+text-align:center;
+padding:18px;
+font-size:14px;
+letter-spacing:1px;
+}
+
+
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.hero-text{
+text-align:center;
+margin-bottom:40px;
+}
+
+.hero-text h1{
+font-size:36px;
+}
+
+.hero-img{
+width:240px;
+}
+
+}
+
+
+/* ===== AUTH PAGE BACKGROUND ===== */
+
+.auth-page{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+background:linear-gradient(-45deg,#007bff,#00c6ff,#6a11cb,#2575fc);
+background-size:400% 400%;
+animation:gradientMove 12s ease infinite;
+}
+
+@keyframes gradientMove{
+0%{background-position:0% 50%}
+50%{background-position:100% 50%}
+100%{background-position:0% 50%}
+}
+
+
+/* ===== GLASS CARD ===== */
+
+.auth-card{
+width:420px;
+padding:40px;
+border-radius:18px;
+background:rgba(255,255,255,0.15);
+backdrop-filter:blur(15px);
+box-shadow:0 8px 32px rgba(0,0,0,0.2);
+color:white;
+animation:fadeIn 1s ease;
+}
+
+@keyframes fadeIn{
+from{
+opacity:0;
+transform:translateY(30px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+
+/* ===== TITLE ===== */
+
+.auth-title{
+text-align:center;
+font-weight:700;
+margin-bottom:25px;
+letter-spacing:1px;
+}
+
+
+/* ===== INPUT FIELDS ===== */
+
+.auth-input{
+background:rgba(255,255,255,0.2);
+border:none;
+color:white;
+padding:12px;
+border-radius:10px;
+margin-bottom:15px;
+width:100%;
+outline:none;
+transition:0.3s;
+}
+
+.auth-input::placeholder{
+color:#eee;
+}
+
+.auth-input:focus{
+background:rgba(255,255,255,0.3);
+box-shadow:0 0 8px rgba(255,255,255,0.6);
+}
+
+
+/* ===== BUTTON ===== */
+
+.auth-btn{
+width:100%;
+padding:12px;
+border:none;
+border-radius:30px;
+font-weight:600;
+background:white;
+color:#007bff;
+transition:0.3s;
+margin-top:10px;
+}
+
+.auth-btn:hover{
+background:#007bff;
+color:white;
+transform:scale(1.05);
+box-shadow:0 6px 20px rgba(0,0,0,0.3);
+}
+
+
+/* ===== LINK ===== */
+
+.auth-link{
+text-align:center;
+margin-top:15px;
+}
+
+.auth-link a{
+color:#fff;
+font-weight:600;
+text-decoration:none;
+}
+
+.auth-link a:hover{
+text-decoration:underline;
+}
+
+/* Notification */
+
+.notification{
+position:fixed;
+top:20px;
+right:20px;
+background:#333;
+color:white;
+padding:14px 20px;
+border-radius:8px;
+box-shadow:0 4px 10px rgba(0,0,0,0.3);
+opacity:0;
+transform:translateY(-20px);
+transition:0.4s;
+z-index:9999;
+}
+
+.notification.show{
+opacity:1;
+transform:translateY(0);
+}
+
+.notification.success{
+background:#28a745;
+}
+
+.notification.error{
+background:#dc3545;
+}
+

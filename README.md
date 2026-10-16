@@ -184,9 +184,6 @@ mvn spring-boot:run
 ## 👨‍💻 Author
 
 **Sharan Seerla Sagar**
-
-* GitHub: https://github.com/Manikumarveldurthi
-* LinkedIn: https://www.linkedin.com/in/veldurthi/
 * Email: [seerlasagar@gmail.com](mailto:seerlasagar@gmail.com)
 
 ---
